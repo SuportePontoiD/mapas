@@ -1,0 +1,5755 @@
+{
+ "layers": [
+  {
+   "currentVersion": 10.4,
+   "id": 0,
+   "name": "Divisas de Município",
+   "type": "Group Layer",
+   "description": "",
+   "geometryType": null,
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [
+    {
+     "id": 1,
+     "name": "Escala 64000"
+    },
+    {
+     "id": 2,
+     "name": "Escala 256000"
+    }
+   ],
+   "minScale": 256000,
+   "maxScale": 250,
+   "defaultVisibility": true,
+   "extent": {
+    "xmin": 588366.4616999999,
+    "ymin": 8052862.0747,
+    "xmax": 800189.1639999999,
+    "ymax": 8284494.7638,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeNone",
+   "displayField": "",
+   "typeIdField": null,
+   "fields": null,
+   "indexes": [],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query",
+   "supportsStatistics": false,
+   "supportsAdvancedQueries": false,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": false,
+    "supportsOrderBy": false,
+    "supportsDistinct": false,
+    "supportsPagination": false,
+    "supportsTrueCurve": false,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   }
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 1,
+   "name": "Escala 64000",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": {
+    "id": 0,
+    "name": "Divisas de Município"
+   },
+   "subLayers": [],
+   "minScale": 64000,
+   "maxScale": 250,
+   "drawingInfo": {
+    "symbolLayerDrawing": {
+     "type": "CIMSymbolLayerDrawing",
+     "symbolLayers": [
+      {
+       "type": "CIMSymbolLayerIdentifier",
+       "symbolReferenceName": "Symbol_309",
+       "symbolLayerName": "Level_0"
+      },
+      {
+       "type": "CIMSymbolLayerIdentifier",
+       "symbolReferenceName": "Symbol_310",
+       "symbolLayerName": "Level_0"
+      },
+      {
+       "type": "CIMSymbolLayerIdentifier",
+       "symbolReferenceName": "Symbol_311",
+       "symbolLayerName": "Level_0"
+      }
+     ],
+     "useSymbolLayerDrawing": true
+    },
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "nm_mun",
+     "field2": "in_metro",
+     "field3": null,
+     "fieldDelimiter": ", ",
+     "defaultSymbol": null,
+     "defaultLabel": null,
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 3
+        }
+       },
+       "value": "Goiânia, 1",
+       "label": "Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Abadia de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Aparecida de Goiânia, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Aragoiânia, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Bela Vista de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Bonfinópolis, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Brazabrantes, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Caldazinha, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Caturaí, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Goianira, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Goianápolis, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Guapó, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Hidrolândia, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Inhumas, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Nerópolis, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Nova Veneza, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Santo Antônio de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Senador Canedo, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Terezópolis de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Trindade, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Abadiânia, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Americano do Brasil, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Anicuns, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Anápolis, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Araçu, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Avelinópolis, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Campestre de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Campo Limpo de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Cezarina, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Damolândia, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Gameleira de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Indiara, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Itaberaí, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Itauçu, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Leopoldo de Bulhões, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Nazário, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Ouro Verde de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Palmeiras de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Petrolina de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Piracanjuba, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Pirenópolis, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Professor Jamil, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Santa Bárbara de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Santa Rosa de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Silvânia, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "São Francisco de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "São Miguel do Passa Quatro, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Taquaral de Goiás, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Varjão, <Null>",
+       "label": "Outros Municípios",
+       "description": ""
+      }
+     ]
+    },
+    "transparency": 0,
+    "labelingInfo": [
+     {
+      "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+      "where": "\"nm_mun\" <> 'Goiânia'",
+      "labelExpression": "[NM_MUN]",
+      "useCodedValues": true,
+      "symbol": {
+       "type": "esriTS",
+       "color": [
+        75,
+        68,
+        52,
+        255
+       ],
+       "backgroundColor": null,
+       "borderLineColor": null,
+       "borderLineSize": null,
+       "verticalAlignment": "baseline",
+       "horizontalAlignment": "left",
+       "rightToLeft": false,
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "kerning": true,
+       "haloColor": [
+        255,
+        255,
+        255,
+        253
+       ],
+       "haloSize": 0.8,
+       "font": {
+        "family": "Candara",
+        "size": 14,
+        "style": "normal",
+        "weight": "bold",
+        "decoration": "none"
+       }
+      },
+      "minScale": 0,
+      "maxScale": 0
+     }
+    ]
+   },
+   "defaultVisibility": true,
+   "extent": {
+    "xmin": 588366.4616999999,
+    "ymin": 8052862.0747,
+    "xmax": 800189.1639999999,
+    "ymax": 8284494.7638,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": true,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "id",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "nm_mun",
+     "type": "esriFieldTypeString",
+     "alias": "nm_mun",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "nm",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "in_metro",
+     "type": "esriFieldTypeSmallInteger",
+     "alias": "in_metro",
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R128_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "I510id",
+     "fields": "id",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "I510nm",
+     "fields": "nm",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "S108_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": true,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 2,
+   "name": "Escala 256000",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": {
+    "id": 0,
+    "name": "Divisas de Município"
+   },
+   "subLayers": [],
+   "minScale": 256000,
+   "maxScale": 64001,
+   "drawingInfo": {
+    "symbolLayerDrawing": {
+     "type": "CIMSymbolLayerDrawing",
+     "symbolLayers": [
+      {
+       "type": "CIMSymbolLayerIdentifier",
+       "symbolReferenceName": "Symbol_316",
+       "symbolLayerName": "Level_0"
+      },
+      {
+       "type": "CIMSymbolLayerIdentifier",
+       "symbolReferenceName": "Symbol_317",
+       "symbolLayerName": "Level_0"
+      },
+      {
+       "type": "CIMSymbolLayerIdentifier",
+       "symbolReferenceName": "Symbol_318",
+       "symbolLayerName": "Level_0"
+      }
+     ],
+     "useSymbolLayerDrawing": true
+    },
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "nm_mun",
+     "field2": "in_metro",
+     "field3": null,
+     "fieldDelimiter": ", ",
+     "defaultSymbol": null,
+     "defaultLabel": null,
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1
+        }
+       },
+       "value": "Goiânia, 1",
+       "label": "Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Abadia de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Aparecida de Goiânia, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Aragoiânia, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Bela Vista de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Bonfinópolis, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Brazabrantes, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Caldazinha, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Caturaí, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Goianira, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Goianápolis, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Guapó, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Hidrolândia, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Inhumas, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Nerópolis, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Nova Veneza, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Santo Antônio de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Senador Canedo, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "São Miguel do Passa Quatro, <Null>",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Terezópolis de Goiás, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         225,
+         225,
+         195,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Trindade, 1",
+       "label": "Região Metropolitana de Goiânia",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Abadiânia, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Americano do Brasil, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Anicuns, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Anápolis, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Araçu, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Avelinópolis, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Campestre de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Campo Limpo de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Cezarina, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Damolândia, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Gameleira de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Indiara, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Itaberaí, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Itauçu, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Leopoldo de Bulhões, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Nazário, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Ouro Verde de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Palmeiras de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Petrolina de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Piracanjuba, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Pirenópolis, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Professor Jamil, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Santa Bárbara de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Santa Rosa de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Silvânia, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "São Francisco de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Taquaral de Goiás, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         241,
+         241,
+         231,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          192,
+          184,
+          165,
+          255
+         ],
+         "width": 1.5
+        }
+       },
+       "value": "Varjão, <Null>",
+       "label": "Outros Municipíos",
+       "description": ""
+      }
+     ]
+    },
+    "transparency": 0,
+    "labelingInfo": [
+     {
+      "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+      "where": "\"nm_mun\" = 'Goiânia'",
+      "labelExpression": "[NM_MUN]",
+      "useCodedValues": true,
+      "symbol": {
+       "type": "esriTS",
+       "color": [
+        75,
+        68,
+        52,
+        255
+       ],
+       "backgroundColor": null,
+       "borderLineColor": null,
+       "borderLineSize": null,
+       "verticalAlignment": "baseline",
+       "horizontalAlignment": "left",
+       "rightToLeft": false,
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "kerning": true,
+       "haloColor": [
+        255,
+        255,
+        255,
+        253
+       ],
+       "haloSize": 0.8,
+       "font": {
+        "family": "Candara",
+        "size": 14,
+        "style": "normal",
+        "weight": "bold",
+        "decoration": "none"
+       }
+      },
+      "minScale": 0,
+      "maxScale": 0
+     },
+     {
+      "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+      "where": "\"nm_mun\" <> 'Goiânia'",
+      "labelExpression": "[NM_MUN]",
+      "useCodedValues": true,
+      "symbol": {
+       "type": "esriTS",
+       "color": [
+        75,
+        68,
+        52,
+        255
+       ],
+       "backgroundColor": null,
+       "borderLineColor": null,
+       "borderLineSize": null,
+       "verticalAlignment": "baseline",
+       "horizontalAlignment": "left",
+       "rightToLeft": false,
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "kerning": true,
+       "haloColor": [
+        255,
+        255,
+        255,
+        253
+       ],
+       "haloSize": 0.8,
+       "font": {
+        "family": "Candara",
+        "size": 11,
+        "style": "normal",
+        "weight": "bold",
+        "decoration": "none"
+       }
+      },
+      "minScale": 0,
+      "maxScale": 0
+     }
+    ]
+   },
+   "defaultVisibility": true,
+   "extent": {
+    "xmin": 588366.4616999999,
+    "ymin": 8052862.0747,
+    "xmax": 800189.1639999999,
+    "ymax": 8284494.7638,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": true,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "id",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "nm_mun",
+     "type": "esriFieldTypeString",
+     "alias": "nm_mun",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "nm",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "in_metro",
+     "type": "esriFieldTypeSmallInteger",
+     "alias": "in_metro",
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R128_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "I510id",
+     "fields": "id",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "I510nm",
+     "fields": "nm",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "S108_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": true,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 3,
+   "name": "Circunscrição Cartorária",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [],
+   "minScale": 256000,
+   "maxScale": 250,
+   "drawingInfo": {
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "nm",
+     "field2": null,
+     "field3": null,
+     "fieldDelimiter": ", ",
+     "defaultSymbol": null,
+     "defaultLabel": null,
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSBackwardDiagonal",
+        "color": [
+         255,
+         170,
+         0,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 1
+        }
+       },
+       "value": "Primeira Circunscrição",
+       "label": "Primeira Circunscrição",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSBackwardDiagonal",
+        "color": [
+         0,
+         112,
+         255,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 1
+        }
+       },
+       "value": "Quarta Circunscrição",
+       "label": "Quarta Circunscrição",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSBackwardDiagonal",
+        "color": [
+         76,
+         230,
+         0,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 1
+        }
+       },
+       "value": "Segunda Circunscrição",
+       "label": "Segunda Circunscrição",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSBackwardDiagonal",
+        "color": [
+         197,
+         0,
+         255,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 1
+        }
+       },
+       "value": "Terceira Circunscrição",
+       "label": "Terceira Circunscrição",
+       "description": ""
+      }
+     ]
+    },
+    "transparency": 40,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 665579.8351999996,
+    "ymin": 8138331.6652,
+    "xmax": 705050.6935,
+    "ymax": 8180030.9168,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "ID",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "nm_cir",
+     "type": "esriFieldTypeString",
+     "alias": "nm_cir",
+     "length": 80,
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "Nome",
+     "length": 80,
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "X_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "Y_coord",
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeSmallInteger",
+     "alias": "Erro",
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R39_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "I40id",
+     "fields": "id",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "I40nm",
+     "fields": "nm",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "S30_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 4,
+   "name": "Divisas de Macrozona",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [],
+   "minScale": 256000,
+   "maxScale": 250,
+   "drawingInfo": {
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "nm",
+     "field2": null,
+     "field3": null,
+     "fieldDelimiter": ", ",
+     "defaultSymbol": null,
+     "defaultLabel": null,
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         0,
+         0,
+         0,
+         0
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSDash",
+         "color": [
+          230,
+          0,
+          0,
+          255
+         ],
+         "width": 3
+        }
+       },
+       "value": "MACROZONA CONSTRUÍDA",
+       "label": "MACROZONA CONSTRUÍDA",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         216,
+         252,
+         215,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MACROZONA RURAL DO ALTO ANICUNS",
+       "label": "MACROZONA RURAL DO ALTO ANICUNS",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         179,
+         238,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MACROZONA RURAL DO BARREIRO",
+       "label": "MACROZONA RURAL DO BARREIRO",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         184,
+         214,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MACROZONA RURAL DO CAPIVARA",
+       "label": "MACROZONA RURAL DO CAPIVARA",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         193,
+         179,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MACROZONA RURAL DO DOURADOS",
+       "label": "MACROZONA RURAL DO DOURADOS",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         183,
+         179,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MACROZONA RURAL DO JOÃO LEITE",
+       "label": "MACROZONA RURAL DO JOÃO LEITE",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         215,
+         240,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MACROZONA RURAL DO LAJEADO",
+       "label": "MACROZONA RURAL DO LAJEADO",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         249,
+         252,
+         179,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MACROZONA RURAL DO SÃO DOMINGOS",
+       "label": "MACROZONA RURAL DO SÃO DOMINGOS",
+       "description": ""
+      }
+     ]
+    },
+    "transparency": 40,
+    "labelingInfo": [
+     {
+      "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+      "where": null,
+      "labelExpression": "[nm]",
+      "useCodedValues": true,
+      "symbol": {
+       "type": "esriTS",
+       "color": [
+        75,
+        68,
+        52,
+        255
+       ],
+       "backgroundColor": null,
+       "borderLineColor": null,
+       "borderLineSize": null,
+       "verticalAlignment": "baseline",
+       "horizontalAlignment": "left",
+       "rightToLeft": false,
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "kerning": true,
+       "haloColor": [
+        255,
+        255,
+        255,
+        253
+       ],
+       "haloSize": 0.7,
+       "font": {
+        "family": "Candara",
+        "size": 8,
+        "style": "normal",
+        "weight": "bold",
+        "decoration": "none"
+       }
+      },
+      "minScale": 256000,
+      "maxScale": 256000
+     },
+     {
+      "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+      "where": null,
+      "labelExpression": "[nm]",
+      "useCodedValues": true,
+      "symbol": {
+       "type": "esriTS",
+       "color": [
+        75,
+        68,
+        52,
+        255
+       ],
+       "backgroundColor": null,
+       "borderLineColor": null,
+       "borderLineSize": null,
+       "verticalAlignment": "baseline",
+       "horizontalAlignment": "left",
+       "rightToLeft": false,
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "kerning": true,
+       "haloColor": [
+        255,
+        255,
+        255,
+        253
+       ],
+       "haloSize": 0.7,
+       "font": {
+        "family": "Candara",
+        "size": 12,
+        "style": "normal",
+        "weight": "bold",
+        "decoration": "none"
+       }
+      },
+      "minScale": 64000,
+      "maxScale": 16000
+     }
+    ]
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 665868.5588999996,
+    "ymin": 8138331.6653,
+    "xmax": 704923.5981000001,
+    "ymax": 8180023.3347,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": true,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "id",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "nm_mzo",
+     "type": "esriFieldTypeString",
+     "alias": "nm_mzo",
+     "length": 80,
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "nm",
+     "length": 80,
+     "domain": null
+    },
+    {
+     "name": "sigla",
+     "type": "esriFieldTypeString",
+     "alias": "sigla",
+     "length": 10,
+     "domain": null
+    },
+    {
+     "name": "cd_sis",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_sis",
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R41_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "S32_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": true,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 5,
+   "name": "Divisas de Região Administrativa (7)",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [],
+   "minScale": 256000,
+   "maxScale": 250,
+   "drawingInfo": {
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "nm",
+     "field2": null,
+     "field3": null,
+     "fieldDelimiter": ", ",
+     "defaultSymbol": null,
+     "defaultLabel": null,
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         187,
+         247,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Centro",
+       "label": "Centro",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         202,
+         213,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Leste",
+       "label": "Leste",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         189,
+         222,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Noroeste",
+       "label": "Noroeste",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         243,
+         179,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Norte",
+       "label": "Norte",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         192,
+         184,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Oeste",
+       "label": "Oeste",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         238,
+         179,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Sudoeste",
+       "label": "Sudoeste",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         215,
+         252,
+         218,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Sul",
+       "label": "Sul",
+       "description": ""
+      }
+     ]
+    },
+    "transparency": 40,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 665579.8351999996,
+    "ymin": 8138331.6653,
+    "xmax": 705050.6935,
+    "ymax": 8180030.9168,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "id",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "nm_re7",
+     "type": "esriFieldTypeString",
+     "alias": "nm_re7",
+     "length": 80,
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "regional",
+     "type": "esriFieldTypeInteger",
+     "alias": "regional",
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "nm",
+     "length": 80,
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R35_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "S27_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 6,
+   "name": "Divisas de Região (12)",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [],
+   "minScale": 0,
+   "maxScale": 0,
+   "drawingInfo": {
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "nm",
+     "field2": null,
+     "field3": null,
+     "fieldDelimiter": ", ",
+     "defaultSymbol": null,
+     "defaultLabel": null,
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         212,
+         194,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO CAMPINAS",
+       "label": "REGIÃO CAMPINAS",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         208,
+         199,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO CENTRAL",
+       "label": "REGIÃO CENTRAL",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         184,
+         216,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO LESTE",
+       "label": "REGIÃO LESTE",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         184,
+         252,
+         182,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO MACAMBIRA-CASCAVEL",
+       "label": "REGIÃO MACAMBIRA-CASCAVEL",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         179,
+         248,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO MENDANHA",
+       "label": "REGIÃO MENDANHA",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         199,
+         252,
+         210,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO NOROESTE",
+       "label": "REGIÃO NOROESTE",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         192,
+         221,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO NORTE",
+       "label": "REGIÃO NORTE",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         252,
+         179,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO OESTE",
+       "label": "REGIÃO OESTE",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         236,
+         199,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO SUDESTE",
+       "label": "REGIÃO SUDESTE",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         244,
+         215,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO SUDOESTE",
+       "label": "REGIÃO SUDOESTE",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         179,
+         252,
+         235,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO SUL",
+       "label": "REGIÃO SUL",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         215,
+         252,
+         251,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "REGIÃO VALE DO MEIA PONTE",
+       "label": "REGIÃO VALE DO MEIA PONTE",
+       "description": ""
+      }
+     ]
+    },
+    "transparency": 40,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 665579.8351999996,
+    "ymin": 8138340.3454,
+    "xmax": 705050.6935,
+    "ymax": 8180030.9168,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "ID",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "nm_reg",
+     "type": "esriFieldTypeString",
+     "alias": "nm_reg",
+     "length": 70,
+     "domain": null
+    },
+    {
+     "name": "id_geo",
+     "type": "esriFieldTypeString",
+     "alias": "id_geo",
+     "length": 20,
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeSmallInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "Nome",
+     "length": 70,
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R29_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "I30id",
+     "fields": "id",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "I30nm",
+     "fields": "nm",
+     "isAscending": true,
+     "isUnique": false,
+     "description": ""
+    },
+    {
+     "name": "S21_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 7,
+   "name": "Divisas de Setor Cadastral",
+   "type": "Group Layer",
+   "description": "",
+   "geometryType": null,
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [
+    {
+     "id": 8,
+     "name": "Escala 64000"
+    },
+    {
+     "id": 9,
+     "name": "Escala 256000"
+    }
+   ],
+   "minScale": 256000,
+   "maxScale": 250,
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 665864.4006000003,
+    "ymin": 8138898.97,
+    "xmax": 697724.2241000002,
+    "ymax": 8179199.876,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeNone",
+   "displayField": "",
+   "typeIdField": null,
+   "fields": null,
+   "indexes": [],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query",
+   "supportsStatistics": false,
+   "supportsAdvancedQueries": false,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": false,
+    "supportsOrderBy": false,
+    "supportsDistinct": false,
+    "supportsPagination": false,
+    "supportsTrueCurve": false,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   }
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 8,
+   "name": "Escala 64000",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": {
+    "id": 7,
+    "name": "Divisas de Setor Cadastral"
+   },
+   "subLayers": [],
+   "minScale": 64000,
+   "maxScale": 250,
+   "drawingInfo": {
+    "renderer": {
+     "type": "simple",
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        77,
+        168,
+        255
+       ],
+       "width": 1.75
+      }
+     },
+     "label": "",
+     "description": ""
+    },
+    "transparency": 40,
+    "labelingInfo": [
+     {
+      "labelPlacement": "esriServerPolygonPlacementAlwaysHorizontal",
+      "where": null,
+      "labelExpression": "[nm]",
+      "useCodedValues": true,
+      "symbol": {
+       "type": "esriTS",
+       "color": [
+        0,
+        38,
+        115,
+        255
+       ],
+       "backgroundColor": null,
+       "borderLineColor": null,
+       "borderLineSize": null,
+       "verticalAlignment": "baseline",
+       "horizontalAlignment": "left",
+       "rightToLeft": false,
+       "angle": 0,
+       "xoffset": 0,
+       "yoffset": 0,
+       "kerning": true,
+       "haloColor": [
+        255,
+        255,
+        255,
+        253
+       ],
+       "haloSize": 0.6,
+       "font": {
+        "family": "Candara",
+        "size": 9,
+        "style": "normal",
+        "weight": "normal",
+        "decoration": "none"
+       }
+      },
+      "minScale": 0,
+      "maxScale": 0
+     }
+    ]
+   },
+   "defaultVisibility": true,
+   "extent": {
+    "xmin": 665864.4006000003,
+    "ymin": 8138898.97,
+    "xmax": 697724.2241000002,
+    "ymax": 8179199.876,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "id",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "ci_scd",
+     "type": "esriFieldTypeInteger",
+     "alias": "ci_scd",
+     "domain": null
+    },
+    {
+     "name": "nr_quad",
+     "type": "esriFieldTypeInteger",
+     "alias": "nr_quad",
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "nm_scd",
+     "type": "esriFieldTypeString",
+     "alias": "nm_scd",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "nm",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R31_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "S23_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": true,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 9,
+   "name": "Escala 256000",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": {
+    "id": 7,
+    "name": "Divisas de Setor Cadastral"
+   },
+   "subLayers": [],
+   "minScale": 256000,
+   "maxScale": 64001,
+   "drawingInfo": {
+    "renderer": {
+     "type": "simple",
+     "symbol": {
+      "type": "esriSFS",
+      "style": "esriSFSSolid",
+      "color": [
+       0,
+       0,
+       0,
+       0
+      ],
+      "outline": {
+       "type": "esriSLS",
+       "style": "esriSLSSolid",
+       "color": [
+        0,
+        77,
+        168,
+        255
+       ],
+       "width": 1
+      }
+     },
+     "label": "",
+     "description": ""
+    },
+    "transparency": 40,
+    "labelingInfo": null
+   },
+   "defaultVisibility": true,
+   "extent": {
+    "xmin": 665864.4006000003,
+    "ymin": 8138898.97,
+    "xmax": 697724.2241000002,
+    "ymax": 8179199.876,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "id",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "ci_scd",
+     "type": "esriFieldTypeInteger",
+     "alias": "ci_scd",
+     "domain": null
+    },
+    {
+     "name": "nr_quad",
+     "type": "esriFieldTypeInteger",
+     "alias": "nr_quad",
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "nm_scd",
+     "type": "esriFieldTypeString",
+     "alias": "nm_scd",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "nm",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R31_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "S23_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  },
+  {
+   "currentVersion": 10.4,
+   "id": 10,
+   "name": "Zonas Eleitorais",
+   "type": "Feature Layer",
+   "description": "",
+   "geometryType": "esriGeometryPolygon",
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [],
+   "minScale": 0,
+   "maxScale": 0,
+   "drawingInfo": {
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "nm",
+     "field2": null,
+     "field3": null,
+     "fieldDelimiter": ", ",
+     "defaultSymbol": null,
+     "defaultLabel": null,
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         179,
+         235,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "126ª Zona",
+       "label": "126ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         249,
+         187,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "127ª Zona",
+       "label": "127ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         217,
+         252,
+         192,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "133ª Zona",
+       "label": "133ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         182,
+         179,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "134ª Zona",
+       "label": "134ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         194,
+         221,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "135ª Zona",
+       "label": "135ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         179,
+         252,
+         183,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "136ª Zona",
+       "label": "136ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         252,
+         213,
+         192,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "146ª Zona",
+       "label": "146ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         217,
+         212,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "147ª Zona",
+       "label": "147ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         210,
+         252,
+         223,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "1ª Zona",
+       "label": "1ª Zona",
+       "description": ""
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         211,
+         179,
+         252,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          0,
+          0,
+          0,
+          0
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "2ª Zona",
+       "label": "2ª Zona",
+       "description": ""
+      }
+     ]
+    },
+    "transparency": 40,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 665579.8351999996,
+    "ymin": 8138331.6653,
+    "xmax": 705050.6935,
+    "ymax": 8180030.9168,
+    "spatialReference": {
+     "wkid": 31982,
+     "latestWkid": 31982
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "id",
+   "typeIdField": null,
+   "fields": [
+    {
+     "name": "OBJECTID",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "id",
+     "type": "esriFieldTypeString",
+     "alias": "id",
+     "length": 12,
+     "domain": null
+    },
+    {
+     "name": "nm_zoe",
+     "type": "esriFieldTypeString",
+     "alias": "nm_zoe",
+     "length": 60,
+     "domain": null
+    },
+    {
+     "name": "x_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "x_coord",
+     "domain": null
+    },
+    {
+     "name": "y_coord",
+     "type": "esriFieldTypeDouble",
+     "alias": "y_coord",
+     "domain": null
+    },
+    {
+     "name": "cd_err",
+     "type": "esriFieldTypeInteger",
+     "alias": "cd_err",
+     "domain": null
+    },
+    {
+     "name": "nm",
+     "type": "esriFieldTypeString",
+     "alias": "nm",
+     "length": 60,
+     "domain": null
+    },
+    {
+     "name": "created_user",
+     "type": "esriFieldTypeString",
+     "alias": "created_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "created_date",
+     "type": "esriFieldTypeDate",
+     "alias": "created_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "last_edited_user",
+     "type": "esriFieldTypeString",
+     "alias": "last_edited_user",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "last_edited_date",
+     "type": "esriFieldTypeDate",
+     "alias": "last_edited_date",
+     "length": 8,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "shape.STArea()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STArea()",
+     "domain": null
+    },
+    {
+     "name": "shape.STLength()",
+     "type": "esriFieldTypeDouble",
+     "alias": "shape.STLength()",
+     "domain": null
+    }
+   ],
+   "indexes": [
+    {
+     "name": "R37_pk",
+     "fields": "OBJECTID",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "S28_idx",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 1000,
+   "supportsStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, AMF, geoJSON",
+   "ownershipBasedAccessControlForFeatures": {"allowOthersToQuery": true},
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsPagination": true,
+    "supportsTrueCurve": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true
+   },
+   "dateFieldsTimeReference": null
+  }
+ ],
+ "tables": []
+}
